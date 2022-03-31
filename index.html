@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="overview">    
+        <div class="square">
+            <div class="imgi">
+                <div class="container">
+                    <div class="parra"></div>
+                    <form action="">
+                        <fieldset class="fieldset">
+                            
+                            <legend>Join Choza Heidan</legend>
+                            
+                         <div id="col">
+                            <div class="col">
+                                <label class="lab"for="username">Name</label>
+                                <input type="text" name="username" id="username" placeholder="Jhon" required>
+                                <label for="password">Password</label>
+                                <input type="pasword" pattern=".{8,}" class="pass" id="pass" placeholder="Password">
+                            </div>
+                            <div class="col">    
+                                
+                                <label for="mail">Email</label>
+                                <input type="email" class="input" id="'mail" placeholder="@yourmail.com" required>
+                                
+                                <label for="pass">Repeat Password</label>
+                                <input type="password" class="rpass" id="rpass" placeholder="Repeat Password" required>
+                                <script>
+                                    var pass = document.getElementById('pass');
+                                    var rpass = document.getElementById('rpass');
+                                    rpass.onchange = function(){
+                                        if(pass.value != rpass.value){
+                                            alert('Passwords do not match');
+                                            rpass.style.borderColor = 'red';
+                                        }
+                                    } 
+                                </script>
+                            
+                            </div>
+                        
+
+                            
+                            
+                        </div>
+                        <input type="submit" value="Join now!">
+                        </fieldset>
+    <div class="quote">
+                                <p>If we only focus on making the best moves, we will never
+                                    get the better of our opponents. When necessary, we must willing to 
+                                    take the big risks, and be prepared to lose everuthing.
+                                </p>
+                                <h3>Irwin Smith</h3>
+
+
+                            </div>
+                            
+
+                    </form>
+                    <div class="texnd"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+:root{
+    background: #000;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    height: 75vh;
+    width: 75vw;
+    background-size: cover;
+    background:black;
+    margin-left: 12.5vw;
+    margin-top: 12.5vh;
+    
+
+}
+.imgi{
+
+    background-image: url('https://seriesatodavela.files.wordpress.com/2013/12/attak-on-titan.jpg');
+    background-size: cover;
+    height: 75vh;
+    border: solid 1px ;
+    border-radius: 10px;
+    border-color: white;    
+    
+}
+.container{
+    margin-top: 25vh;
+    background-image: url(https://cdn.wallpapersafari.com/99/20/Iy0coN.png);
+    background-size:contain;
+    opacity: 66%;
+    height: 25vw;
+    width: 75vw;
+    
+}
+.fieldset{
+    width: 33vw;
+    margin-left: 23vw;
+    color: white;
+    border: solid 2px;
+    border-color: rgb(187, 255, 1);
+    border-radius: 10px;
+    background-color: rgba(77, 35, 155, 0.5);
+
+
+
+}
+#col div{
+    display: inline-block;
+    justify-content: space-between
+    
+    
+}
+label{
+    display:block;
+    font-weight: bold;
+
+}
+input:active{
+    border:solid 5px;
+    border-color: rgb(15, 12, 168);
+    border-radius: 10px;
+
+}
+input[type=submit]{
+    background-color: rgb(255, 252, 104);
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+input[type=submit]:hover{
+    background-color:rgb(55, 224, 26);
+    opacity: 77%;
+}
+input{
+    border-radius: 5px;
+}
+.quote{
+    margin-top: 50px;
+    margin-left: 26vw;
+    width: 25vw;
+    text-align: center;
+    color: white !important;
+}
